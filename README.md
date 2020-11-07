@@ -215,6 +215,8 @@ Github のユーザ名とメールアドレスを登録する．ターミナル�
 
 **！！！それぞれ自身のアカウントのものを入力すること！！！**
 
+ここで mac ユーザはエラーが出ることがある．エラーが出た場合は 1.8 項を参照しよう．
+
 ```bash
 $ git config --global user.name "hoge"
 $ git config --global user.email "hoge@example.com"
@@ -261,6 +263,14 @@ Connection to github.com closed.
 ```bash
 $ xcode-select --install
 ```
+
+上記コマンドを実行してもうまく行かない場合，下記の手順を実行する．
+
+- [https://developer.apple.com/download/more/](https://developer.apple.com/download/more/)にアクセスする．自身の AppleID とパスワードを入力する．
+
+- 検索窓に`command line tools`を入力し，`Command Line Tools for Xcode 11.5`を探し，ダウンロード → インストール．
+
+- 再度 1.6 項を進める．
 
 ## **2. プロダクトを登録するときにやること**
 
