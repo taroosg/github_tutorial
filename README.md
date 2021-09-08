@@ -367,7 +367,7 @@ push は実際にファイルをアップロードするイメージ．この段
 下記コマンドを入力する．
 
 ```bash
-$ git push origin master
+$ git push origin main
 ```
 
 実行結果
@@ -380,7 +380,7 @@ Writing objects: 100% (4/4), 385 bytes | 385.00 KiB/s, done.
 Total 4 (delta 3), reused 0 (delta 0)
 remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To github.com:******/******.git
-   9ae72be..eb700ec  master -> master
+   9ae72be..eb700ec  main -> main
 ```
 
 ブラウザで Github のページを確認し，ファイルがアップされていれば成功！
@@ -420,7 +420,7 @@ $ git commit -m"コミットメッセージ"
 ### **3.4 ファイルを push**
 
 ```bash
-$ git push origin master
+$ git push origin main
 ```
 
 実行結果
@@ -433,7 +433,7 @@ Writing objects: 100% (4/4), 385 bytes | 385.00 KiB/s, done.
 Total 4 (delta 3), reused 0 (delta 0)
 remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
 To github.com:******/******.git
-   9ae72be..eb700ec  master -> master
+   9ae72be..eb700ec  main -> main
 ```
 
 ブラウザで Github のリポジトリを確認して登録されていれば OK！
